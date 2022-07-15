@@ -1,6 +1,14 @@
-.form__input{
-    border-radius: 6px;
+.link {
+    color: #FFAEAE !important;
 }
-main{
-    background-color: aqua;
+.main{
+    background-color: #FFAEAE;
+}
+.footer{
+    height: 8vh;
+}
+@media (min-width: 1500px;){
+    .main{
+        height: 100vh;
+    }
 }

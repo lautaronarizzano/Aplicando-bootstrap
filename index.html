@@ -8,34 +8,34 @@
     <title>Aplicando Bootstrap</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-black navbar-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" style="color: #FFAEAE;" href="#">Charly Garcia</a>
+                <a class="navbar-brand link" href="#">Charly Garcia</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon" style="color: #FFAEAE;"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" style="color: #FFAEAE;" aria-current="page" href="./index.html">Inicio</a>
+                            <a class="nav-link active link" aria-current="page" href="./index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link color-FFAEAE" style="color: #FFAEAE;" href="./pages/gira.html">Gira</a>
+                            <a class="nav-link link" href="./pages/gira.html">Gira</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link color-FFAEAE" style="color: #FFAEAE;" href="./pages/discografia.html">Discografia</a>
+                            <a class="nav-link link" href="./pages/discografia.html">Discografia</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link color-FFAEAE" style="color: #FFAEAE;" href="./pages/galeria.html">Galeria</a>
+                            <a class="nav-link link" href="./pages/galeria.html">Galeria</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link color-FFAEAE" style="color: #FFAEAE;" href="./pages/contacto.html">Contacto</a>
+                            <a class="nav-link link" href="./pages/contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
@@ -43,7 +43,8 @@
         </nav>
     </header>
     <main>
-        <div class="container-fluid" style="background-color: #FFAEAE;">
+        <div class="container-fluid main">
+            <div class="row">
             <div class="col-0 col-lg-1">
             </div>
             <div class="col-12 col-lg-6">
@@ -80,15 +81,16 @@
                     Ciudad Autónoma de Buenos Aires por la Legislatura Porteña,​ y en 2013 recibió el título de Doctor
                     Honoris Causa de la Universidad Nacional de General San Martín.</p>
             </div>
-            <div class="col-12 col-lg-4">
+            <div class="col-12 col-lg-4 align-self-center justify-content-center">
                 <img src="./img/charly-garcia1.png" alt="" class="img-fluid order-0 pb-2">
             </div>
             <div class="col-0 col-lg-1"> </div>
         </div>
+        </div>
     </main>
     <div class="container-fluid bg-black">
         <footer class="d-flex flex-wrap justify-content-between align-items-center border-topk">
-            <div class="col-md-4 d-flex align-items-center" style="height: 8vh;">
+            <div class="col-md-4 d-flex align-items-center footer">
                 <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
                     <svg class="bi" width="30" height="24">
                         <use xlink:href="#bootstrap" /></svg>
