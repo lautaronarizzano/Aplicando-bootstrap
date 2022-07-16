@@ -4,9 +4,13 @@
 .main{
     background-color: #FFAEAE;
 }
+
 .footer{
     height: 8.4vh;
 }
 .index__texto{
     font-size: 18px;
+}
+.contacto__main{
+    background-color: #FFAEAE;
 }
