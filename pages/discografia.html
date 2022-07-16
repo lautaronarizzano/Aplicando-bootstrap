@@ -9,14 +9,14 @@
     <title>Aplicando Bootstrap</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-black navbar-dark">
             <div class="container-fluid">
-                <a class="navbar-brand link" style="color: #FFAEAE;" href="#">Charly Garcia</a>
+                <a class="navbar-brand link" href="#">Charly Garcia</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -24,46 +24,54 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active link" style="color: #FFAEAE;" aria-current="page" href="../index.html">Inicio</a>
+                            <a class="nav-link active link" aria-current="page" href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link link" style="color: #FFAEAE;" href="./gira.html">Gira</a>
+                            <a class="nav-link link" href="./gira.html">Gira</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link link" style="color: #FFAEAE;" href="./discografia.html">Discografia</a>
+                            <a class="nav-link link" href="./discografia.html">Discografia</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link link" style="color: #FFAEAE;" href="./galeria.html">Galeria</a>
+                            <a class="nav-link link" href="./galeria.html">Galeria</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link link" style="color: #FFAEAE;" href="./contacto.html">Contacto</a>
+                            <a class="nav-link link" href="./contacto.html">Contacto</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <main class="discografia__main container-fluid d-flex flex-row" style="background-color: #FFAEAE;">
-        <div class="row ">
-            <div class="discografia__div">
-                    <div class="discografia__contenido">
-                        <h2 class="discografia__h2 pt-3">DISCOGRAFIA</h2>
-                        <p class="discografia__p">Conoce y disfruta la musica de Charly Garcia</p>
-                        <div class="div__iframe d-flex justify-content-center align-items-center align-self-center">
-                            <div class="col-lg-4">
-                                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/3OyBf97NOuJjhEpQHY920H?utm_source=generator" height="400px" width="100%" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" class="iframe-discografia"></iframe>   
-                            </div>
-                            <div class="col-lg-4">
-                                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/17utekM9a95MchXbkbh47k?utm_source=generator" height="400px"  frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" class="iframe-discografia"></iframe>
-                            </div>
-                            <div class="col-lg-4">
-                                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/7yNFDuCsXe2P0DSenIMKxk?utm_source=generator" height="400px"  frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" class="iframe-discografia"></iframe>
-                            </div>
-                        </div>
+    <main>
+        <div class="row">
+            <div class="container d-flex flex-column justify-content-center align-items-center">
+                <div class="discografia__info d-flex flex-column">
+                    <h2 class="discografia__h2 pt-3">DISCOGRAFIA</h2>
+                    <p class="discografia__p">Conoce y disfruta la musica de Charly Garcia</p>
+                </div>
+                <div class="container d-flex flex-column flex-lg-row justify-content-around">
+                    <div class="col-12 col-lg-4">
+                        <iframe class="p-2" style="border-radius:12px"
+                            src="https://open.spotify.com/embed/album/3OyBf97NOuJjhEpQHY920H?utm_source=generator"
+                            width="100%"" height=" 480" frameBorder="0" allowfullscreen=""
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
                     </div>
+                    <div class="col-12 col-lg-4">
+                        <iframe class="p-2" style="border-radius:12px"
+                            src="https://open.spotify.com/embed/album/17utekM9a95MchXbkbh47k?utm_source=generator"
+                            width="100%" height="480" frameBorder="0" allowfullscreen=""
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
                     </div>
-        </div>
-        </main>
+                    <div class="col-12 col-lg-4">
+                        <iframe class="p-2" style="border-radius:12px"
+                            src="https://open.spotify.com/embed/album/7yNFDuCsXe2P0DSenIMKxk?utm_source=generator"
+                            width="100%" height="480" frameBorder="0" allowfullscreen=""
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                    </div>
+                </div>
+            </div>
+    </main>
     <div class="container-fluid bg-black">
         <footer class="d-flex flex-wrap justify-content-between align-items-center border-topk">
             <div class="col-md-4 d-flex align-items-center" style="height: 8vh;">
@@ -71,7 +79,7 @@
                     <svg class="bi" width="30" height="24">
                         <use xlink:href="#bootstrap" /></svg>
                 </a>
-                <span class="text-muted">Pagina sin fines de lucro</span>
+                <span class="footer__span">Pagina sin fines de lucro</span>
             </div>
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
                 <li class="ms-3"><a target="_blank" class="text-muted"
@@ -85,17 +93,16 @@
                             src="../img/youtube (2).png" alt=""></a></li>
                 <li class="ms-3"><a target="_blank" class="text-muted"
                         href="https://open.spotify.com/artist/3jO7X5KupvwmWTHGtHgcgo"><img src="../img/spotify (2).png"
-                            </footer> 
-                        </div> 
-                        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-                        rel="stylesheet"
-                        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-                        crossorigin="anonymous">
-                    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-                        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-                        crossorigin="anonymous">
-                    </script>
-                            
+                            </footer> </div> <link
+                            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+                            rel="stylesheet"
+                            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+                            crossorigin="anonymous">
+                        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+                            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+                            crossorigin="anonymous">
+                        </script>
+
 </body>
 
 </html>

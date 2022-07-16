@@ -1,16 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat&family=Raleway:ital,wght@1,300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+p, span, li{
+    font-family: 'Abril Fatface', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Raleway', sans-serif;
+}
 .link {
     color: #FFAEAE !important;
+    transition: 1s;
+}
+body{
+    background-color: #FFAEAE !important;
+    overflow-x: hidden;
 }
 .main{
     background-color: #FFAEAE;
 }
-
+.contacto__main{
+    height: 74vh;
+}
+.img{
+    max-width: 700px;
+}
+.iframe{
+    width: 30rem;
+    height: 18rem;
+}
+.button{
+    border-radius: 5px;
+    width: 5rem;
+}
+.button-submit{
+    border-radius: 5px;
+}
 .footer{
     height: 8.4vh;
 }
 .index__texto{
     font-size: 18px;
 }
-.contacto__main{
-    background-color: #FFAEAE;
+.link:hover{
+    text-decoration: solid;
+    border-bottom: 2px solid #FFAEAE;
+    color: #a16868;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: #a8a3a3;;
+}
+.button-submit:hover{
+    cursor: pointer;
+    background-color: #a8a3a3;
+}
+.footer__span{
+    color: #FFAEAE;
 }
