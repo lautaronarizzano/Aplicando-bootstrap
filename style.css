@@ -31,12 +31,10 @@ body{
     height: 18rem;
 }
 .button{
-    border-radius: 5px;
     width: 5rem;
     transition: 0.4s;
 }
 .button-submit{
-    border-radius: 5px;
     transition: 0.4s;
 }
 .footer{
@@ -45,7 +43,7 @@ body{
 .index__texto{
     font-size: 18px;
 }
-.link:hover{
+.link-hover:hover{
     text-decoration: solid;
     border-bottom: 2px solid #FFAEAE;
     color: #a16868;
